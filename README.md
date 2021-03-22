@@ -1,3 +1,3 @@
 # iOS-Text-Similarity using TF-IDF and cosine similarity with n-grams
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt Text](https://github.com/bhavin250495/iOS-Text-Similarity/blob/main/project.gif)
