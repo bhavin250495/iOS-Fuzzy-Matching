@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Volumes/OpenSource/projects/iOS-Text-Similarity/TextSimilarity.xcodeproj">
    </FileRef>
 </Workspace>

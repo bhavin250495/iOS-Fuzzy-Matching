@@ -24,7 +24,7 @@
 /* Begin PBXFileReference section */
 		AE3FAAE426087A02008D21D3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		AE3FAAE8260892D9008D21D3 /* CorrectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectionView.swift; sourceTree = "<group>"; };
-		AE62D0ED2603245A00DD5909 /* SearchPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE62D0ED2603245A00DD5909 /* TextSimilarity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextSimilarity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE62D0F02603245A00DD5909 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE62D0F22603245A00DD5909 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AE62D0F42603245A00DD5909 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		AE62D0E42603245A00DD5909 = {
 			isa = PBXGroup;
 			children = (
-				AE62D0EF2603245A00DD5909 /* SearchPOC */,
+				AE62D0EF2603245A00DD5909 /* TextSimilarity */,
 				AE62D0EE2603245A00DD5909 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,12 +60,12 @@
 		AE62D0EE2603245A00DD5909 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE62D0ED2603245A00DD5909 /* SearchPOC.app */,
+				AE62D0ED2603245A00DD5909 /* TextSimilarity.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AE62D0EF2603245A00DD5909 /* SearchPOC */ = {
+		AE62D0EF2603245A00DD5909 /* TextSimilarity */ = {
 			isa = PBXGroup;
 			children = (
 				AE3FAAE426087A02008D21D3 /* HomeView.swift */,
@@ -82,7 +82,7 @@
 				AE62D10B2603BFBE00DD5909 /* CosineSimilarity.swift */,
 				AE62D10E2603C07F00DD5909 /* CorrectionEngine.swift */,
 			);
-			path = SearchPOC;
+			path = TextSimilarity;
 			sourceTree = "<group>";
 		};
 		AE62D0F82603245D00DD5909 /* Preview Content */ = {
@@ -96,9 +96,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AE62D0EC2603245A00DD5909 /* SearchPOC */ = {
+		AE62D0EC2603245A00DD5909 /* TextSimilarity */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE62D1012603245D00DD5909 /* Build configuration list for PBXNativeTarget "SearchPOC" */;
+			buildConfigurationList = AE62D1012603245D00DD5909 /* Build configuration list for PBXNativeTarget "TextSimilarity" */;
 			buildPhases = (
 				AE62D0E92603245A00DD5909 /* Sources */,
 				AE62D0EA2603245A00DD5909 /* Frameworks */,
@@ -108,9 +108,9 @@
 			);
 			dependencies = (
 			);
-			name = SearchPOC;
+			name = TextSimilarity;
 			productName = SearchPOC;
-			productReference = AE62D0ED2603245A00DD5909 /* SearchPOC.app */;
+			productReference = AE62D0ED2603245A00DD5909 /* TextSimilarity.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -127,7 +127,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AE62D0E82603245A00DD5909 /* Build configuration list for PBXProject "SearchPOC" */;
+			buildConfigurationList = AE62D0E82603245A00DD5909 /* Build configuration list for PBXProject "TextSimilarity" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -140,7 +140,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AE62D0EC2603245A00DD5909 /* SearchPOC */,
+				AE62D0EC2603245A00DD5909 /* TextSimilarity */,
 			);
 		};
 /* End PBXProject section */
@@ -311,15 +311,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SearchPOC/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TextSimilarity/Preview Content\"";
 				DEVELOPMENT_TEAM = D5BNN4LS8B;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SearchPOC/Info.plist;
+				INFOPLIST_FILE = TextSimilarity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.deloitte.tutorial.SearchPOC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.textsimilarity.proj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -332,15 +332,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SearchPOC/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TextSimilarity/Preview Content\"";
 				DEVELOPMENT_TEAM = D5BNN4LS8B;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SearchPOC/Info.plist;
+				INFOPLIST_FILE = TextSimilarity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.deloitte.tutorial.SearchPOC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.textsimilarity.proj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -350,7 +350,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AE62D0E82603245A00DD5909 /* Build configuration list for PBXProject "SearchPOC" */ = {
+		AE62D0E82603245A00DD5909 /* Build configuration list for PBXProject "TextSimilarity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE62D0FF2603245D00DD5909 /* Debug */,
@@ -359,7 +359,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE62D1012603245D00DD5909 /* Build configuration list for PBXNativeTarget "SearchPOC" */ = {
+		AE62D1012603245D00DD5909 /* Build configuration list for PBXNativeTarget "TextSimilarity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE62D1022603245D00DD5909 /* Debug */,
